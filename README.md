@@ -1,2 +1,2 @@
-# swift-kata
+# Swift Kata
 Kata on Swift
