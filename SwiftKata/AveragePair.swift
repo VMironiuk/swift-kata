@@ -14,7 +14,7 @@ public func averagePair(_ inputArray: [Int], _ inputAverage: Double) -> Bool {
     
     var lhs = 0
     var rhs = inputArray.count - 1
-    while lhs <= rhs {
+    while lhs < rhs {
         let average = (Double(inputArray[lhs]) + Double(inputArray[rhs])) / 2.0
         if average == inputAverage {
             return true
