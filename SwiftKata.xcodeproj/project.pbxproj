@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C4D4F7E28296F4900B2FA36 /* MinSubArrayLenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D4F7D28296F4900B2FA36 /* MinSubArrayLenTests.swift */; };
+		3C4D4F8028296F6C00B2FA36 /* MinSubArrayLen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D4F7F28296F6C00B2FA36 /* MinSubArrayLen.swift */; };
 		3C66C576281C35D900C2BA55 /* SwiftKata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C66C56D281C35D900C2BA55 /* SwiftKata.framework */; };
 		3C66C57C281C35D900C2BA55 /* SwiftKata.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C66C570281C35D900C2BA55 /* SwiftKata.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C66C586281C368F00C2BA55 /* SameFrequencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66C585281C368F00C2BA55 /* SameFrequencyTests.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C4D4F7D28296F4900B2FA36 /* MinSubArrayLenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinSubArrayLenTests.swift; sourceTree = "<group>"; };
+		3C4D4F7F28296F6C00B2FA36 /* MinSubArrayLen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinSubArrayLen.swift; sourceTree = "<group>"; };
 		3C66C56D281C35D900C2BA55 /* SwiftKata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftKata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C66C570281C35D900C2BA55 /* SwiftKata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftKata.h; sourceTree = "<group>"; };
 		3C66C575281C35D900C2BA55 /* SwiftKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +97,7 @@
 				3C786E922822D52F00EE37FD /* AveragePair.swift */,
 				3CD1AAB928240F4E0000AB64 /* IsSubsequence.swift */,
 				3CD3B15A2825662700AB93EA /* MaxSubarraySum.swift */,
+				3C4D4F7F28296F6C00B2FA36 /* MinSubArrayLen.swift */,
 			);
 			path = SwiftKata;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 				3C786E902822D51600EE37FD /* AveragePair.swift */,
 				3CD1AAB728240E9D0000AB64 /* IsSubsequenceTests.swift */,
 				3CD3B1582825660E00AB93EA /* MaxSubarraySumTests.swift */,
+				3C4D4F7D28296F4900B2FA36 /* MinSubArrayLenTests.swift */,
 			);
 			path = SwiftKataTests;
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CD3B15B2825662700AB93EA /* MaxSubarraySum.swift in Sources */,
+				3C4D4F8028296F6C00B2FA36 /* MinSubArrayLen.swift in Sources */,
 				3C786E932822D52F00EE37FD /* AveragePair.swift in Sources */,
 				3CD1AABA28240F4E0000AB64 /* IsSubsequence.swift in Sources */,
 				3C66C588281C37B800C2BA55 /* SameFrequency.swift in Sources */,
@@ -237,6 +244,7 @@
 				3C66C586281C368F00C2BA55 /* SameFrequencyTests.swift in Sources */,
 				3CD3B1592825660E00AB93EA /* MaxSubarraySumTests.swift in Sources */,
 				3CB76C93281FE5BE00809818 /* AreThereDuplicatesTests.swift in Sources */,
+				3C4D4F7E28296F4900B2FA36 /* MinSubArrayLenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
