@@ -21,6 +21,8 @@
 		3CD1AABA28240F4E0000AB64 /* IsSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD1AAB928240F4E0000AB64 /* IsSubsequence.swift */; };
 		3CD3B1592825660E00AB93EA /* MaxSubarraySumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD3B1582825660E00AB93EA /* MaxSubarraySumTests.swift */; };
 		3CD3B15B2825662700AB93EA /* MaxSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD3B15A2825662700AB93EA /* MaxSubarraySum.swift */; };
+		3CEE02D5282ABA1B00F9239F /* FindLongestSubstringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE02D4282ABA1B00F9239F /* FindLongestSubstringTests.swift */; };
+		3CEE02D7282ABA3500F9239F /* FindLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE02D6282ABA3500F9239F /* FindLongestSubstring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3CD1AAB928240F4E0000AB64 /* IsSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSubsequence.swift; sourceTree = "<group>"; };
 		3CD3B1582825660E00AB93EA /* MaxSubarraySumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubarraySumTests.swift; sourceTree = "<group>"; };
 		3CD3B15A2825662700AB93EA /* MaxSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubarraySum.swift; sourceTree = "<group>"; };
+		3CEE02D4282ABA1B00F9239F /* FindLongestSubstringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindLongestSubstringTests.swift; sourceTree = "<group>"; };
+		3CEE02D6282ABA3500F9239F /* FindLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindLongestSubstring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 				3CD1AAB928240F4E0000AB64 /* IsSubsequence.swift */,
 				3CD3B15A2825662700AB93EA /* MaxSubarraySum.swift */,
 				3C4D4F7F28296F6C00B2FA36 /* MinSubArrayLen.swift */,
+				3CEE02D6282ABA3500F9239F /* FindLongestSubstring.swift */,
 			);
 			path = SwiftKata;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 				3CD1AAB728240E9D0000AB64 /* IsSubsequenceTests.swift */,
 				3CD3B1582825660E00AB93EA /* MaxSubarraySumTests.swift */,
 				3C4D4F7D28296F4900B2FA36 /* MinSubArrayLenTests.swift */,
+				3CEE02D4282ABA1B00F9239F /* FindLongestSubstringTests.swift */,
 			);
 			path = SwiftKataTests;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 				3C786E932822D52F00EE37FD /* AveragePair.swift in Sources */,
 				3CD1AABA28240F4E0000AB64 /* IsSubsequence.swift in Sources */,
 				3C66C588281C37B800C2BA55 /* SameFrequency.swift in Sources */,
+				3CEE02D7282ABA3500F9239F /* FindLongestSubstring.swift in Sources */,
 				3CB76C95281FE65600809818 /* AreThereDuplicates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CEE02D5282ABA1B00F9239F /* FindLongestSubstringTests.swift in Sources */,
 				3C786E912822D51600EE37FD /* AveragePair.swift in Sources */,
 				3CD1AAB828240E9D0000AB64 /* IsSubsequenceTests.swift in Sources */,
 				3C66C586281C368F00C2BA55 /* SameFrequencyTests.swift in Sources */,
