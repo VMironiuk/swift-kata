@@ -17,10 +17,8 @@ public func maxSubarraySum(input: [Int], length: Int) -> Int? {
     
     var tempSum = maxSum
     for i in length..<input.count {
-        tempSum = tempSum - input[i - length] + input[i]
-        if maxSum < tempSum {
-            maxSum = tempSum
-        }
+        tempSum += input[i] - input[i - length]
+        maxSum = max(maxSum, tempSum)
     }
     
     return maxSum
