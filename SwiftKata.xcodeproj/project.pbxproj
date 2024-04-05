@@ -15,6 +15,8 @@
 		2E92D23B2BBD15CC0093DDE4 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E92D23A2BBD15CC0093DDE4 /* Power.swift */; };
 		2E9396562BC01C4300EA90BE /* RecursiveRangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9396552BC01C4300EA90BE /* RecursiveRangeTests.swift */; };
 		2E9396582BC01C6A00EA90BE /* RecursiveRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9396572BC01C6A00EA90BE /* RecursiveRange.swift */; };
+		2E93965A2BC01EFE00EA90BE /* FibonacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9396592BC01EFE00EA90BE /* FibonacciTests.swift */; };
+		2E93965C2BC01F1C00EA90BE /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E93965B2BC01F1C00EA90BE /* Fibonacci.swift */; };
 		2EA0482D2BBE7550000525C9 /* ProductOfArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA0482C2BBE7550000525C9 /* ProductOfArrayTests.swift */; };
 		2EA0482F2BBE7565000525C9 /* ProductOfArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA0482E2BBE7565000525C9 /* ProductOfArray.swift */; };
 		2EC4CE5D2BBBC11300B72903 /* FactorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4CE5C2BBBC11300B72903 /* FactorialTests.swift */; };
@@ -56,6 +58,8 @@
 		2E92D23A2BBD15CC0093DDE4 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
 		2E9396552BC01C4300EA90BE /* RecursiveRangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveRangeTests.swift; sourceTree = "<group>"; };
 		2E9396572BC01C6A00EA90BE /* RecursiveRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveRange.swift; sourceTree = "<group>"; };
+		2E9396592BC01EFE00EA90BE /* FibonacciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciTests.swift; sourceTree = "<group>"; };
+		2E93965B2BC01F1C00EA90BE /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		2EA0482C2BBE7550000525C9 /* ProductOfArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayTests.swift; sourceTree = "<group>"; };
 		2EA0482E2BBE7565000525C9 /* ProductOfArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArray.swift; sourceTree = "<group>"; };
 		2EC4CE5C2BBBC11300B72903 /* FactorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialTests.swift; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 				2E92D23A2BBD15CC0093DDE4 /* Power.swift */,
 				2EA0482E2BBE7565000525C9 /* ProductOfArray.swift */,
 				2E9396572BC01C6A00EA90BE /* RecursiveRange.swift */,
+				2E93965B2BC01F1C00EA90BE /* Fibonacci.swift */,
 			);
 			path = SwiftKata;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				2E92D2382BBD15B50093DDE4 /* PowerTests.swift */,
 				2EA0482C2BBE7550000525C9 /* ProductOfArrayTests.swift */,
 				2E9396552BC01C4300EA90BE /* RecursiveRangeTests.swift */,
+				2E9396592BC01EFE00EA90BE /* FibonacciTests.swift */,
 			);
 			path = SwiftKataTests;
 			sourceTree = "<group>";
@@ -278,6 +284,7 @@
 				2E9396582BC01C6A00EA90BE /* RecursiveRange.swift in Sources */,
 				3CD1AABA28240F4E0000AB64 /* IsSubsequence.swift in Sources */,
 				3C66C588281C37B800C2BA55 /* SameFrequency.swift in Sources */,
+				2E93965C2BC01F1C00EA90BE /* Fibonacci.swift in Sources */,
 				3CEE02D7282ABA3500F9239F /* FindLongestSubstring.swift in Sources */,
 				2E241599288BB60100C34240 /* CollectOddValues.swift in Sources */,
 				3CB76C95281FE65600809818 /* AreThereDuplicates.swift in Sources */,
@@ -290,6 +297,7 @@
 			files = (
 				3CEE02D5282ABA1B00F9239F /* FindLongestSubstringTests.swift in Sources */,
 				3C786E912822D51600EE37FD /* AveragePair.swift in Sources */,
+				2E93965A2BC01EFE00EA90BE /* FibonacciTests.swift in Sources */,
 				3CD1AAB828240E9D0000AB64 /* IsSubsequenceTests.swift in Sources */,
 				3C66C586281C368F00C2BA55 /* SameFrequencyTests.swift in Sources */,
 				2EA0482D2BBE7550000525C9 /* ProductOfArrayTests.swift in Sources */,
