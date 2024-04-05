@@ -13,6 +13,8 @@
 		2E92D2372BBD14B40093DDE4 /* SumRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E92D2362BBD14B40093DDE4 /* SumRange.swift */; };
 		2E92D2392BBD15B50093DDE4 /* PowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E92D2382BBD15B50093DDE4 /* PowerTests.swift */; };
 		2E92D23B2BBD15CC0093DDE4 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E92D23A2BBD15CC0093DDE4 /* Power.swift */; };
+		2EA0482D2BBE7550000525C9 /* ProductOfArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA0482C2BBE7550000525C9 /* ProductOfArrayTests.swift */; };
+		2EA0482F2BBE7565000525C9 /* ProductOfArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA0482E2BBE7565000525C9 /* ProductOfArray.swift */; };
 		2EC4CE5D2BBBC11300B72903 /* FactorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4CE5C2BBBC11300B72903 /* FactorialTests.swift */; };
 		2EC4CE5F2BBBC12200B72903 /* Factorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4CE5E2BBBC12200B72903 /* Factorial.swift */; };
 		3C4D4F7E28296F4900B2FA36 /* MinSubArrayLenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D4F7D28296F4900B2FA36 /* MinSubArrayLenTests.swift */; };
@@ -50,6 +52,8 @@
 		2E92D2362BBD14B40093DDE4 /* SumRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumRange.swift; sourceTree = "<group>"; };
 		2E92D2382BBD15B50093DDE4 /* PowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerTests.swift; sourceTree = "<group>"; };
 		2E92D23A2BBD15CC0093DDE4 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
+		2EA0482C2BBE7550000525C9 /* ProductOfArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayTests.swift; sourceTree = "<group>"; };
+		2EA0482E2BBE7565000525C9 /* ProductOfArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArray.swift; sourceTree = "<group>"; };
 		2EC4CE5C2BBBC11300B72903 /* FactorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialTests.swift; sourceTree = "<group>"; };
 		2EC4CE5E2BBBC12200B72903 /* Factorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factorial.swift; sourceTree = "<group>"; };
 		3C4D4F7D28296F4900B2FA36 /* MinSubArrayLenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinSubArrayLenTests.swift; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 				2EC4CE5E2BBBC12200B72903 /* Factorial.swift */,
 				2E92D2362BBD14B40093DDE4 /* SumRange.swift */,
 				2E92D23A2BBD15CC0093DDE4 /* Power.swift */,
+				2EA0482E2BBE7565000525C9 /* ProductOfArray.swift */,
 			);
 			path = SwiftKata;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 				2EC4CE5C2BBBC11300B72903 /* FactorialTests.swift */,
 				2E92D2342BBD13020093DDE4 /* SumRangeTests.swift */,
 				2E92D2382BBD15B50093DDE4 /* PowerTests.swift */,
+				2EA0482C2BBE7550000525C9 /* ProductOfArrayTests.swift */,
 			);
 			path = SwiftKataTests;
 			sourceTree = "<group>";
@@ -256,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA0482F2BBE7565000525C9 /* ProductOfArray.swift in Sources */,
 				3CD3B15B2825662700AB93EA /* MaxSubarraySum.swift in Sources */,
 				3C4D4F8028296F6C00B2FA36 /* MinSubArrayLen.swift in Sources */,
 				3C786E932822D52F00EE37FD /* AveragePair.swift in Sources */,
@@ -278,6 +285,7 @@
 				3C786E912822D51600EE37FD /* AveragePair.swift in Sources */,
 				3CD1AAB828240E9D0000AB64 /* IsSubsequenceTests.swift in Sources */,
 				3C66C586281C368F00C2BA55 /* SameFrequencyTests.swift in Sources */,
+				2EA0482D2BBE7550000525C9 /* ProductOfArrayTests.swift in Sources */,
 				2EC4CE5D2BBBC11300B72903 /* FactorialTests.swift in Sources */,
 				2E92D2352BBD13020093DDE4 /* SumRangeTests.swift in Sources */,
 				3CD3B1592825660E00AB93EA /* MaxSubarraySumTests.swift in Sources */,
