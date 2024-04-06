@@ -8,6 +8,8 @@
 import Foundation
 
 public func reversed(_ string: String) -> String {
-    guard let last = string.last else { return "" }
-    return String(last).appending(reversed(String(string.dropLast(1))))
+    guard !string.isEmpty else { return "" }
+    var mutableString = string
+    let last = String(mutableString.removeLast())
+    return last + reversed(mutableString)
 }
