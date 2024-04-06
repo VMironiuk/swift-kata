@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E1C42A42BC12CEE000C45C6 /* ReverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C42A32BC12CEE000C45C6 /* ReverseTests.swift */; };
+		2E1C42A62BC12D0A000C45C6 /* Reverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C42A52BC12D0A000C45C6 /* Reverse.swift */; };
 		2E241597288BB56600C34240 /* CollectOddValuesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E241596288BB56600C34240 /* CollectOddValuesTests.swift */; };
 		2E241599288BB60100C34240 /* CollectOddValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E241598288BB60100C34240 /* CollectOddValues.swift */; };
 		2E92D2352BBD13020093DDE4 /* SumRangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E92D2342BBD13020093DDE4 /* SumRangeTests.swift */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E1C42A32BC12CEE000C45C6 /* ReverseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseTests.swift; sourceTree = "<group>"; };
+		2E1C42A52BC12D0A000C45C6 /* Reverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reverse.swift; sourceTree = "<group>"; };
 		2E241596288BB56600C34240 /* CollectOddValuesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectOddValuesTests.swift; sourceTree = "<group>"; };
 		2E241598288BB60100C34240 /* CollectOddValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectOddValues.swift; sourceTree = "<group>"; };
 		2E92D2342BBD13020093DDE4 /* SumRangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumRangeTests.swift; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 				2EA0482E2BBE7565000525C9 /* ProductOfArray.swift */,
 				2E9396572BC01C6A00EA90BE /* RecursiveRange.swift */,
 				2E93965B2BC01F1C00EA90BE /* Fibonacci.swift */,
+				2E1C42A52BC12D0A000C45C6 /* Reverse.swift */,
 			);
 			path = SwiftKata;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 				2EA0482C2BBE7550000525C9 /* ProductOfArrayTests.swift */,
 				2E9396552BC01C4300EA90BE /* RecursiveRangeTests.swift */,
 				2E9396592BC01EFE00EA90BE /* FibonacciTests.swift */,
+				2E1C42A32BC12CEE000C45C6 /* ReverseTests.swift */,
 			);
 			path = SwiftKataTests;
 			sourceTree = "<group>";
@@ -288,6 +294,7 @@
 				3CEE02D7282ABA3500F9239F /* FindLongestSubstring.swift in Sources */,
 				2E241599288BB60100C34240 /* CollectOddValues.swift in Sources */,
 				3CB76C95281FE65600809818 /* AreThereDuplicates.swift in Sources */,
+				2E1C42A62BC12D0A000C45C6 /* Reverse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +314,7 @@
 				2E92D2392BBD15B50093DDE4 /* PowerTests.swift in Sources */,
 				2E9396562BC01C4300EA90BE /* RecursiveRangeTests.swift in Sources */,
 				3CB76C93281FE5BE00809818 /* AreThereDuplicatesTests.swift in Sources */,
+				2E1C42A42BC12CEE000C45C6 /* ReverseTests.swift in Sources */,
 				2E241597288BB56600C34240 /* CollectOddValuesTests.swift in Sources */,
 				3C4D4F7E28296F4900B2FA36 /* MinSubArrayLenTests.swift in Sources */,
 			);
