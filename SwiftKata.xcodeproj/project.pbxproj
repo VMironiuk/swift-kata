@@ -23,6 +23,8 @@
 		2EA0482F2BBE7565000525C9 /* ProductOfArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA0482E2BBE7565000525C9 /* ProductOfArray.swift */; };
 		2EC4CE5D2BBBC11300B72903 /* FactorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4CE5C2BBBC11300B72903 /* FactorialTests.swift */; };
 		2EC4CE5F2BBBC12200B72903 /* Factorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4CE5E2BBBC12200B72903 /* Factorial.swift */; };
+		2EEA713A2BC3BD2400FAD4E2 /* IsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA71392BC3BD2400FAD4E2 /* IsPalindrome.swift */; };
+		2EEA713C2BC3BD5D00FAD4E2 /* IsPalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA713B2BC3BD5D00FAD4E2 /* IsPalindromeTests.swift */; };
 		3C4D4F7E28296F4900B2FA36 /* MinSubArrayLenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D4F7D28296F4900B2FA36 /* MinSubArrayLenTests.swift */; };
 		3C4D4F8028296F6C00B2FA36 /* MinSubArrayLen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D4F7F28296F6C00B2FA36 /* MinSubArrayLen.swift */; };
 		3C66C576281C35D900C2BA55 /* SwiftKata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C66C56D281C35D900C2BA55 /* SwiftKata.framework */; };
@@ -68,6 +70,8 @@
 		2EA0482E2BBE7565000525C9 /* ProductOfArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArray.swift; sourceTree = "<group>"; };
 		2EC4CE5C2BBBC11300B72903 /* FactorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialTests.swift; sourceTree = "<group>"; };
 		2EC4CE5E2BBBC12200B72903 /* Factorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factorial.swift; sourceTree = "<group>"; };
+		2EEA71392BC3BD2400FAD4E2 /* IsPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindrome.swift; sourceTree = "<group>"; };
+		2EEA713B2BC3BD5D00FAD4E2 /* IsPalindromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindromeTests.swift; sourceTree = "<group>"; };
 		3C4D4F7D28296F4900B2FA36 /* MinSubArrayLenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinSubArrayLenTests.swift; sourceTree = "<group>"; };
 		3C4D4F7F28296F6C00B2FA36 /* MinSubArrayLen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinSubArrayLen.swift; sourceTree = "<group>"; };
 		3C66C56D281C35D900C2BA55 /* SwiftKata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftKata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +147,7 @@
 				2E9396572BC01C6A00EA90BE /* RecursiveRange.swift */,
 				2E93965B2BC01F1C00EA90BE /* Fibonacci.swift */,
 				2E1C42A52BC12D0A000C45C6 /* Reverse.swift */,
+				2EEA71392BC3BD2400FAD4E2 /* IsPalindrome.swift */,
 			);
 			path = SwiftKata;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 				2E9396552BC01C4300EA90BE /* RecursiveRangeTests.swift */,
 				2E9396592BC01EFE00EA90BE /* FibonacciTests.swift */,
 				2E1C42A32BC12CEE000C45C6 /* ReverseTests.swift */,
+				2EEA713B2BC3BD5D00FAD4E2 /* IsPalindromeTests.swift */,
 			);
 			path = SwiftKataTests;
 			sourceTree = "<group>";
@@ -284,6 +290,7 @@
 				3CD3B15B2825662700AB93EA /* MaxSubarraySum.swift in Sources */,
 				3C4D4F8028296F6C00B2FA36 /* MinSubArrayLen.swift in Sources */,
 				3C786E932822D52F00EE37FD /* AveragePair.swift in Sources */,
+				2EEA713A2BC3BD2400FAD4E2 /* IsPalindrome.swift in Sources */,
 				2E92D2372BBD14B40093DDE4 /* SumRange.swift in Sources */,
 				2E92D23B2BBD15CC0093DDE4 /* Power.swift in Sources */,
 				2EC4CE5F2BBBC12200B72903 /* Factorial.swift in Sources */,
@@ -314,6 +321,7 @@
 				2E92D2392BBD15B50093DDE4 /* PowerTests.swift in Sources */,
 				2E9396562BC01C4300EA90BE /* RecursiveRangeTests.swift in Sources */,
 				3CB76C93281FE5BE00809818 /* AreThereDuplicatesTests.swift in Sources */,
+				2EEA713C2BC3BD5D00FAD4E2 /* IsPalindromeTests.swift in Sources */,
 				2E1C42A42BC12CEE000C45C6 /* ReverseTests.swift in Sources */,
 				2E241597288BB56600C34240 /* CollectOddValuesTests.swift in Sources */,
 				3C4D4F7E28296F4900B2FA36 /* MinSubArrayLenTests.swift in Sources */,
