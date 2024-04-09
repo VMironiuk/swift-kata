@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E172DBC2BC50E530014A13B /* SomeRecursive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E172DBB2BC50E530014A13B /* SomeRecursive.swift */; };
+		2E172DBE2BC50E660014A13B /* SomeRecursiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E172DBD2BC50E660014A13B /* SomeRecursiveTests.swift */; };
 		2E1C42A42BC12CEE000C45C6 /* ReverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C42A32BC12CEE000C45C6 /* ReverseTests.swift */; };
 		2E1C42A62BC12D0A000C45C6 /* Reverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C42A52BC12D0A000C45C6 /* Reverse.swift */; };
 		2E241597288BB56600C34240 /* CollectOddValuesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E241596288BB56600C34240 /* CollectOddValuesTests.swift */; };
@@ -54,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E172DBB2BC50E530014A13B /* SomeRecursive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeRecursive.swift; sourceTree = "<group>"; };
+		2E172DBD2BC50E660014A13B /* SomeRecursiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeRecursiveTests.swift; sourceTree = "<group>"; };
 		2E1C42A32BC12CEE000C45C6 /* ReverseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseTests.swift; sourceTree = "<group>"; };
 		2E1C42A52BC12D0A000C45C6 /* Reverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reverse.swift; sourceTree = "<group>"; };
 		2E241596288BB56600C34240 /* CollectOddValuesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectOddValuesTests.swift; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 				2E93965B2BC01F1C00EA90BE /* Fibonacci.swift */,
 				2E1C42A52BC12D0A000C45C6 /* Reverse.swift */,
 				2EEA71392BC3BD2400FAD4E2 /* IsPalindrome.swift */,
+				2E172DBB2BC50E530014A13B /* SomeRecursive.swift */,
 			);
 			path = SwiftKata;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 				2E9396592BC01EFE00EA90BE /* FibonacciTests.swift */,
 				2E1C42A32BC12CEE000C45C6 /* ReverseTests.swift */,
 				2EEA713B2BC3BD5D00FAD4E2 /* IsPalindromeTests.swift */,
+				2E172DBD2BC50E660014A13B /* SomeRecursiveTests.swift */,
 			);
 			path = SwiftKataTests;
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E172DBC2BC50E530014A13B /* SomeRecursive.swift in Sources */,
 				2EA0482F2BBE7565000525C9 /* ProductOfArray.swift in Sources */,
 				3CD3B15B2825662700AB93EA /* MaxSubarraySum.swift in Sources */,
 				3C4D4F8028296F6C00B2FA36 /* MinSubArrayLen.swift in Sources */,
@@ -311,6 +318,7 @@
 			files = (
 				3CEE02D5282ABA1B00F9239F /* FindLongestSubstringTests.swift in Sources */,
 				3C786E912822D51600EE37FD /* AveragePair.swift in Sources */,
+				2E172DBE2BC50E660014A13B /* SomeRecursiveTests.swift in Sources */,
 				2E93965A2BC01EFE00EA90BE /* FibonacciTests.swift in Sources */,
 				3CD1AAB828240E9D0000AB64 /* IsSubsequenceTests.swift in Sources */,
 				3C66C586281C368F00C2BA55 /* SameFrequencyTests.swift in Sources */,
