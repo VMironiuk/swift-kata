@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0CEE902BCFB8F800BF4B04 /* NestedEvenSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0CEE8F2BCFB8F800BF4B04 /* NestedEvenSum.swift */; };
 		2E172DBC2BC50E530014A13B /* SomeRecursive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E172DBB2BC50E530014A13B /* SomeRecursive.swift */; };
 		2E172DBE2BC50E660014A13B /* SomeRecursiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E172DBD2BC50E660014A13B /* SomeRecursiveTests.swift */; };
 		2E1AE2122BC65F6B00B458FD /* Flatten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AE2112BC65F6B00B458FD /* Flatten.swift */; };
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E0CEE8F2BCFB8F800BF4B04 /* NestedEvenSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedEvenSum.swift; sourceTree = "<group>"; };
 		2E172DBB2BC50E530014A13B /* SomeRecursive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeRecursive.swift; sourceTree = "<group>"; };
 		2E172DBD2BC50E660014A13B /* SomeRecursiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeRecursiveTests.swift; sourceTree = "<group>"; };
 		2E1AE2112BC65F6B00B458FD /* Flatten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flatten.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				2E172DBD2BC50E660014A13B /* SomeRecursiveTests.swift */,
 				2E1AE2132BC65FCB00B458FD /* FlattenTests.swift */,
 				2E1B483B2BC9029300C659B5 /* CapitalizeFirstTests.swift */,
+				2E0CEE8F2BCFB8F800BF4B04 /* NestedEvenSum.swift */,
 			);
 			path = SwiftKataTests;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				2EC4CE5D2BBBC11300B72903 /* FactorialTests.swift in Sources */,
 				2E92D2352BBD13020093DDE4 /* SumRangeTests.swift in Sources */,
 				3CD3B1592825660E00AB93EA /* MaxSubarraySumTests.swift in Sources */,
+				2E0CEE902BCFB8F800BF4B04 /* NestedEvenSum.swift in Sources */,
 				2E92D2392BBD15B50093DDE4 /* PowerTests.swift in Sources */,
 				2E9396562BC01C4300EA90BE /* RecursiveRangeTests.swift in Sources */,
 				3CB76C93281FE5BE00809818 /* AreThereDuplicatesTests.swift in Sources */,
