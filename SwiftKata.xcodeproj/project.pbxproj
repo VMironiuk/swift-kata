@@ -29,6 +29,7 @@
 		2EA0482F2BBE7565000525C9 /* ProductOfArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA0482E2BBE7565000525C9 /* ProductOfArray.swift */; };
 		2EC4CE5D2BBBC11300B72903 /* FactorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4CE5C2BBBC11300B72903 /* FactorialTests.swift */; };
 		2EC4CE5F2BBBC12200B72903 /* Factorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4CE5E2BBBC12200B72903 /* Factorial.swift */; };
+		2ED45CA92BF487EE005631B7 /* LongestPalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED45CA82BF487EE005631B7 /* LongestPalindromeTests.swift */; };
 		2EEA713A2BC3BD2400FAD4E2 /* IsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA71392BC3BD2400FAD4E2 /* IsPalindrome.swift */; };
 		2EEA713C2BC3BD5D00FAD4E2 /* IsPalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA713B2BC3BD5D00FAD4E2 /* IsPalindromeTests.swift */; };
 		3C4D4F7E28296F4900B2FA36 /* MinSubArrayLenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D4F7D28296F4900B2FA36 /* MinSubArrayLenTests.swift */; };
@@ -82,6 +83,7 @@
 		2EA0482E2BBE7565000525C9 /* ProductOfArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArray.swift; sourceTree = "<group>"; };
 		2EC4CE5C2BBBC11300B72903 /* FactorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialTests.swift; sourceTree = "<group>"; };
 		2EC4CE5E2BBBC12200B72903 /* Factorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factorial.swift; sourceTree = "<group>"; };
+		2ED45CA82BF487EE005631B7 /* LongestPalindromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromeTests.swift; sourceTree = "<group>"; };
 		2EEA71392BC3BD2400FAD4E2 /* IsPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindrome.swift; sourceTree = "<group>"; };
 		2EEA713B2BC3BD5D00FAD4E2 /* IsPalindromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindromeTests.swift; sourceTree = "<group>"; };
 		3C4D4F7D28296F4900B2FA36 /* MinSubArrayLenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinSubArrayLenTests.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				2E1AE2132BC65FCB00B458FD /* FlattenTests.swift */,
 				2E1B483B2BC9029300C659B5 /* CapitalizeFirstTests.swift */,
 				2E0CEE8F2BCFB8F800BF4B04 /* NestedEvenSum.swift */,
+				2ED45CA82BF487EE005631B7 /* LongestPalindromeTests.swift */,
 			);
 			path = SwiftKataTests;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				3CD1AAB828240E9D0000AB64 /* IsSubsequenceTests.swift in Sources */,
 				3C66C586281C368F00C2BA55 /* SameFrequencyTests.swift in Sources */,
 				2EA0482D2BBE7550000525C9 /* ProductOfArrayTests.swift in Sources */,
+				2ED45CA92BF487EE005631B7 /* LongestPalindromeTests.swift in Sources */,
 				2EC4CE5D2BBBC11300B72903 /* FactorialTests.swift in Sources */,
 				2E92D2352BBD13020093DDE4 /* SumRangeTests.swift in Sources */,
 				3CD3B1592825660E00AB93EA /* MaxSubarraySumTests.swift in Sources */,
